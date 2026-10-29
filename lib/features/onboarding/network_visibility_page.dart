@@ -64,10 +64,7 @@ class _NetworkVisibilityPageState extends ConsumerState<NetworkVisibilityPage> {
             constraints: const BoxConstraints(maxWidth: 396),
             child: Column(
               children: [
-                SizedBox(
-                  height: context.dvh(40, 6, 108),
-                  child: const AssetIcon('illustrations/vol-logo.png', fit: BoxFit.cover),
-                ),
+                SizedBox(height: context.dvh(80, 10, 130), child: const AssetIcon('illustrations/vol-logo.png')),
                 SizedBox(height: context.dvh(6, 1, 24)),
                 Text(
                   'Profile Setup Complete',

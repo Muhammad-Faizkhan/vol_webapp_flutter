@@ -79,7 +79,7 @@ class Sidebar extends ConsumerWidget {
             padding: EdgeInsets.fromLTRB(wide ? 32 : 24, wide ? context.dvh(20, 4, 40) : context.dvh(16, 4, 32), wide ? 32 : 24, 0),
             child: Row(
               children: [
-                SizedBox.square(dimension: context.dvh(48, 8, 80), child: const AssetIcon('illustrations/vol-logo.png')),
+                SizedBox(height: context.dvh(52, 12.6, 136), child: const AssetIcon('illustrations/vol-logo.png')),
                 const Spacer(),
                 if (!wide)
                   IconButton(

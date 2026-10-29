@@ -145,10 +145,7 @@ class _IndividualFormState extends ConsumerState<_IndividualForm> {
             constraints: const BoxConstraints(maxWidth: 396),
             child: Column(
               children: [
-                SizedBox(
-                  height: context.dvh(36, 5, 80),
-                  child: const AssetIcon('illustrations/vol-logo.png', fit: BoxFit.cover),
-                ),
+                SizedBox(height: context.dvh(72, 9, 120), child: const AssetIcon('illustrations/vol-logo.png')),
                 SizedBox(height: context.dvh(6, 1, 24)),
                 Text(
                   'Create Personal Profile',
@@ -431,10 +428,7 @@ class _BusinessFormState extends ConsumerState<_BusinessForm> {
       backHref: '/join-network',
       child: Column(
         children: [
-          SizedBox(
-            height: context.dvh(28, 3, 48),
-            child: const AssetIcon('illustrations/vol-logo.png', fit: BoxFit.cover),
-          ),
+          SizedBox(height: context.dvh(56, 6, 80), child: const AssetIcon('illustrations/vol-logo.png')),
           const SizedBox(height: 8),
           Text(
             'Business Registration',

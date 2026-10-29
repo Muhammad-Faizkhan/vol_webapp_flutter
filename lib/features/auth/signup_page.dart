@@ -120,7 +120,7 @@ class _SignupPageState extends ConsumerState<SignupPage> {
             AuthHeading(
               title: 'Let’s Sign Up',
               subtitle: 'Enter your details below to sign up your account',
-              logoSize: context.dvh(36, 7, 100),
+              logoSize: context.dvh(72, 11, 120),
             ),
             SizedBox(height: context.dvh(8, 1.5, 24)),
             field(

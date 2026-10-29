@@ -59,7 +59,7 @@ class PolicyPage extends ConsumerWidget {
                   const SizedBox(height: 24),
                   Row(
                     children: [
-                      const AssetIcon('illustrations/vol-logo.png', height: 48),
+                      const AssetIcon('illustrations/vol-logo.png', height: 72),
                       const SizedBox(width: 16),
                       Text(
                         title,

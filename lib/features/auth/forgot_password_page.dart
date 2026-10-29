@@ -60,7 +60,7 @@ class _ForgotPasswordPageState extends ConsumerState<ForgotPasswordPage> {
           AuthHeading(
             title: 'Forgot Password?',
             subtitle: 'Enter email to get One-Time Password to verify your account.',
-            logoSize: context.dvh(48, 9, 100),
+            logoSize: context.dvh(96, 13, 140),
           ),
           SizedBox(height: context.dvh(12, 2, 24)),
           Column(

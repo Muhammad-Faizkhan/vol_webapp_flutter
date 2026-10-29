@@ -124,7 +124,7 @@ class _OtpPageState extends ConsumerState<OtpPage> {
           AuthHeading(
             title: 'OTP Verification',
             subtitle: 'Enter your email below to login your account',
-            logoSize: context.dvh(40, 8, 100),
+            logoSize: context.dvh(80, 12, 130),
           ),
           SizedBox(height: context.dvh(12, 2.5, 40)),
           ClipRRect(

@@ -36,10 +36,7 @@ class WelcomePage extends StatelessWidget {
                 constraints: const BoxConstraints(maxWidth: 503),
                 child: Column(
                   children: [
-                    SizedBox(
-                      height: context.dvh(48, 7, 120),
-                      child: const AssetIcon('illustrations/vol-logo.png', fit: BoxFit.cover),
-                    ),
+                    SizedBox(height: context.dvh(96, 12, 150), child: const AssetIcon('illustrations/vol-logo.png')),
                     SizedBox(height: context.dvh(8, 1.5, 24)),
                     Text(
                       'Join the VÔL Network',

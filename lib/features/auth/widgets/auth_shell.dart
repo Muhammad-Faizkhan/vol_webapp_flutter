@@ -108,7 +108,7 @@ class AuthHeading extends StatelessWidget {
       constraints: const BoxConstraints(maxWidth: 380),
       child: Column(
         children: [
-          AssetIcon('illustrations/vol-logo.png', width: logoSize, height: logoSize),
+          AssetIcon('illustrations/vol-logo.png', height: logoSize),
           SizedBox(height: context.dvh(6, 1, 24)),
           Text(
             title,

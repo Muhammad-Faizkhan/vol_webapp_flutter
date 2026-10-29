@@ -71,7 +71,7 @@ class _ResetPasswordPageState extends ConsumerState<ResetPasswordPage> {
             AuthHeading(
               title: 'Reset Password',
               subtitle: 'Set your new password and confirm your new password',
-              logoSize: context.dvh(48, 9, 100),
+              logoSize: context.dvh(96, 13, 140),
             ),
             SizedBox(height: gap),
             Column(

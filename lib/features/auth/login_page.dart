@@ -83,7 +83,11 @@ class _LoginPageState extends ConsumerState<LoginPage> {
       child: AutofillGroup(
         child: Column(
           children: [
-            AuthHeading(title: 'Welcome Back', subtitle: 'Enter your email below to login your account', logoSize: context.dvh(36, 7, 100)),
+            AuthHeading(
+              title: 'Welcome Back',
+              subtitle: 'Enter your email below to login your account',
+              logoSize: context.dvh(72, 11, 120),
+            ),
             SizedBox(height: context.dvh(12, 2.5, 50)),
             VolButton(
               label: 'Login with google',
